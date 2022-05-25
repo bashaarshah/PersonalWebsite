@@ -27,13 +27,14 @@ const LandingPage = () => {
     <div className="bx--grid bx--grid--full-width landing-page">
       <div className="bx--row landing-page__banner">
         <div className="bx--col-lg-16">
-          <Breadcrumb noTrailingSlash aria-label="Page navigation">
+          {/* <Breadcrumb noTrailingSlash aria-label="Page navigation">
             <BreadcrumbItem>
               <a href="/">Getting started</a>
+              
             </BreadcrumbItem>
-          </Breadcrumb>
+          </Breadcrumb> */}
           <h1 className="landing-page__heading">
-            Design &amp; build with Carbon
+            Welcome
           </h1>
         </div>
       </div>
@@ -45,14 +46,11 @@ const LandingPage = () => {
                 <div className="bx--row landing-page__tab-content">
                   <div className="bx--col-md-4 bx--col-lg-7">
                     <h2 className="landing-page__subheading">
-                      What is Carbon?
+                      My name is Bashaar Shah.
                     </h2>
                     <p className="landing-page__p">
-                      Carbon is IBM’s open-source design system for digital
-                      products and experiences. With the IBM Design Language as
-                      its foundation, the system consists of working code,
-                      design tools and resources, human interface guidelines,
-                      and a vibrant community of contributors.
+                      I am a currently full-stack software engineer at <strong>Ford Motor Company </strong>
+                      on the Ford Pro Gateway team working on the new Ford Pro Website!
                     </p>
                     <Button>Learn more</Button>
                   </div>
